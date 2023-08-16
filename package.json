@@ -1,0 +1,19 @@
+{
+  "name": "test_depcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "deps:check": "dependency-check  --extensions 'js' --extensions 'ts:detective-typescript' --extensions 'tsx:@fatso83/detective-tsx' --no-dev 'index.tsx'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "dependency-check": "5.0.0-7",
+    "detective-typescript": "^11.1.0",
+    "@fatso83/detective-tsx": "^1.0.0"
+  }
+}
