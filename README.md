@@ -1,0 +1,1 @@
+## Repository to reproduce an issue with dependency-check and TSX files
